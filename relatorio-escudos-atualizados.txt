@@ -1,0 +1,139 @@
+CATÁLOGO DIGITAL — ESCUDOS ATUALIZADOS
+Origem: escudos_clubes_lista_simples(2).txt
+Versão baseada em: catalogo-digital-black-premium-logo-url.zip
+Total de escudos cadastrados: 187
+Links de escudos alterados: 36
+Links de escudos mantidos: 151
+
+ATENÇÃO: A disponibilidade real das imagens na internet não foi comprovada.
+As URLs foram inseridas conforme o arquivo recebido e devem ser testadas no site publicado.
+Para testar abra /diagnostico-escudos.html na hospedagem.
+
+ALTERAÇÕES POR LIGA
+===================
+
+COPA DO MUNDO - SELEÇÕES (4 alterações)
+- Estados Unidos
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/united-states-national-team.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/usa-national-team.png
+- Holanda
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/netherlands-national-team.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/netherlands-national-team-dutch.png
+- Irlanda
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/ireland-national-team.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/republic-of-ireland-national-team.png
+- República Tcheca
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/czech-republic-national-team.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/czechia-national-team.png
+
+CAMPEONATO BRASILEIRO (3 alterações)
+- Remo
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/clube-de-remo.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/club-de-remo.png
+- Flamengo
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/flamengo-crf.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/flamengo.png
+- São Paulo
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/sao-paulo-spfc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/sao-paulo.png
+
+CAMPEONATO ESPANHOL - LA LIGA (3 alterações)
+- Real Betis
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/real-betis.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/real-betis-balompie.png
+- Espanyol
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/rcd-espanyol.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/rcd-espanyol-barcelona.png
+- Athletic Bilbao
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/athletic-club.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/athletic-club-bilbao.png
+
+CAMPEONATO INGLÊS - PREMIER LEAGUE (2 alterações)
+- Leicester
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/leicester-city.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/leicester.png
+- Southampton
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/southampton-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/southampton.png
+
+CAMPEONATO ITALIANO - SERIE A (6 alterações)
+- Napoli
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/ssc-napoli.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/napoli.png
+- Roma
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/as-roma.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/roma.png
+- Bologna
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/bologna-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/bologna.png
+- Venezia
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/venezia.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/venezia-fc.png
+- Lazio
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/ss-lazio.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/lazio.png
+- Genoa
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/genoa-cfc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/genoa.png
+
+CAMPEONATO ALEMÃO - BUNDESLIGA (2 alterações)
+- Hoffenheim
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/hoffenheim.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/tsg-hoffenheim.png
+- Köln
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/fc-cologne.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/1-fc-koln.png
+
+CAMPEONATO FRANCÊS - LIGUE 1 (5 alterações)
+- PSG
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/paris-saint-germain.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/paris-saint-germain-psg.png
+- Olympique de Marseille
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/olympique-marseille.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/olympique-de-marseille-om.png
+- Lille
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/lille-osc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/losc-lille.png
+- Montpellier
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/montpellier-hsc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/montpellier.png
+- Brest
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/stade-brestois.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/stade-brestois-29.png
+
+TIMES DA AMÉRICA (7 alterações)
+- Nacional (Uruguai)
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/club-nacional-de-football.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/nacional.png
+- Olimpia
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/club-olimpia.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/olimpia.png
+- Inter Miami
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/inter-miami-cf.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/inter-miami.png
+- Chicago Fire
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/chicago-fire-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/chicago-fire.png
+- Orlando City
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/orlando-city-sc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/orlando-city.png
+- Atlanta United
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/atlanta-united-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/atlanta-united.png
+- Minnesota United
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/minnesota-united-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/minnesota-united.png
+
+RESTO DO MUNDO (4 alterações)
+- Dinamo Zagreb
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/dinamo-zagreb.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/gnk-dinamo-zagreb.png
+- Zenit
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/zenit-st-petersburg.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/zenit-saint-petersburg.png
+- Rangers
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/rangers-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/rangers.png
+- Celtic
+  Antes: https://www.footylogos.com/dls/logo/rgba-v1/celtic-fc.png
+  Agora: https://www.footylogos.com/dls/logo/rgba-v1/celtic.png

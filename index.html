@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Catálogo esportivo Mundo dos Times — clubes, seleções e outras coleções.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MUNDO DOS TIMES">
+  <meta property="og:description" content="Catálogos esportivos de clubes, seleções e outras coleções da Mundo dos Times.">
+  <title>MUNDO DOS TIMES | Catálogo Esportivo</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://ik.imagekit.io">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./configuracao.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="sticky-shell">
+    <div class="announcement-bar" aria-label="Avisos da loja">
+      <div class="announcement-track">
+          <div class="announcement-group">
+            <span>ENVIAMOS PARA TODO BRASIL</span>
+            <span>ENCONTRE SUA COLEÇÃO FAVORITA</span>
+            <span>CLIQUE NOS ESCUDOS DOS CLUBES</span>
+          </div>
+          <div class="announcement-group" aria-hidden="true">
+            <span>ENVIAMOS PARA TODO BRASIL</span>
+            <span>ENCONTRE SUA COLEÇÃO FAVORITA</span>
+            <span>CLIQUE NOS ESCUDOS DOS CLUBES</span>
+          </div>
+      </div>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <div class="header-side header-side--left">
+          <button class="icon-button icon-button--accent" type="button" id="menu-button" aria-label="Abrir menu de navegação" aria-controls="navigation-panel" aria-expanded="false">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+        </div>
+
+        <a class="brand" href="#inicio" id="brand-link" aria-label="MUNDO DOS TIMES — voltar ao início">
+          <img id="brand-logo-image" alt="Logo Mundo dos Times" width="420" height="420" hidden>
+          <span class="brand-placeholder" id="brand-placeholder">MUNDO DOS TIMES</span>
+        </a>
+
+        <div class="header-side header-side--right">
+          <a class="icon-button icon-button--accent icon-link" id="header-whatsapp" href="#contato-pendente" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2A9.94 9.94 0 0 0 2.1 11.92a9.8 9.8 0 0 0 1.34 4.96L2 22l5.29-1.38A9.96 9.96 0 1 0 12.04 2Zm0 18.12a8.15 8.15 0 0 1-4.16-1.14l-.3-.18-3.14.82.84-3.05-.2-.31A8.2 8.2 0 1 1 12.04 20.12Zm4.51-6.13c-.25-.12-1.47-.72-1.7-.8-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.24-.12-1.03-.38-1.96-1.22-.72-.65-1.21-1.44-1.35-1.69-.14-.24-.01-.38.11-.5.11-.11.24-.29.37-.43.12-.14.16-.24.24-.4.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.24-.86.84-.86 2.05s.88 2.38 1 2.55c.12.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.4.51.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.59.21-1.09.15-1.19-.06-.1-.22-.16-.46-.29Z"/></svg>
+          </a>
+          <a class="icon-button icon-button--accent icon-link" id="header-instagram" href="#instagram-pendente" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          </a>
+          <button class="icon-button icon-button--accent" type="button" id="search-button" aria-label="Pesquisar ligas, clubes e seleções" aria-controls="search-panel" aria-expanded="false">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="29" height="29" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.6" cy="10.6" r="6.8"/><path d="m16 16 5 5"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div id="floating-contact" aria-label="Contato pelo WhatsApp"></div>
+
+  <main id="conteudo" tabindex="-1" aria-label="Catálogos de camisas">
+    <section class="featured-brand" aria-label="Destaques da loja">
+      <div class="hero-carousel" id="hero-carousel" aria-roledescription="carrossel" aria-label="Quatro banners principais">
+        <div class="hero-slides" id="hero-slides"></div>
+        <button class="hero-arrow hero-arrow--prev" type="button" id="hero-prev" aria-label="Banner anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="hero-arrow hero-arrow--next" type="button" id="hero-next" aria-label="Próximo banner">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+        <div class="hero-dots" id="hero-dots" role="group" aria-label="Selecionar banner"></div>
+        <span class="sr-only" aria-live="polite" aria-atomic="true" id="hero-live"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"><span id="footer-name">MUNDO DOS TIMES</span><span>© <span id="footer-year"></span> — Todos os direitos reservados.</span></footer>
+
+  <div class="overlay" id="nav-overlay" hidden>
+    <div class="overlay-backdrop" data-close="nav"></div>
+    <nav class="navigation-panel" id="navigation-panel" aria-label="Navegação principal" aria-modal="true" role="dialog" aria-labelledby="nav-title" tabindex="-1">
+      <div class="panel-header"><span class="panel-title" id="nav-title">MENU</span>
+        <button class="icon-button icon-button--accent panel-close" type="button" id="close-menu" aria-label="Fechar menu">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M5 5 19 19M19 5 5 19"/></svg>
+        </button>
+      </div>
+      <div class="navigation-content" id="navigation-content"></div>
+    </nav>
+  </div>
+
+  <div class="overlay overlay--search" id="search-overlay" hidden>
+    <div class="overlay-backdrop" data-close="search"></div>
+    <section class="search-panel" id="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title" tabindex="-1">
+      <div class="panel-header"><span class="panel-title" id="search-title">PESQUISAR</span>
+        <button class="icon-button icon-button--accent panel-close" type="button" id="close-search" aria-label="Fechar pesquisa">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M5 5 19 19M19 5 5 19"/></svg>
+        </button>
+      </div>
+      <div class="search-field">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <input type="search" id="search-input" autocomplete="off" spellcheck="false" placeholder="Busque um clube, seleção ou liga..." aria-label="Pesquisar clubes, seleções ou ligas" aria-controls="search-results">
+      </div>
+      <div class="search-results" id="search-results" role="region" aria-label="Resultados da pesquisa" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <noscript><p class="noscript-message">Ative o JavaScript para visualizar os clubes e acessar seus catálogos.</p></noscript>
+</body>
+</html>

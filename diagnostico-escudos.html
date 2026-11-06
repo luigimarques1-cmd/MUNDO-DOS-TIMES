@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Diagnóstico de Escudos | ARENA FUTESTORE</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,Helvetica,Arial,sans-serif}
+    *{box-sizing:border-box}
+    body{margin:0;background:#000;color:#fff;padding:26px 18px 45px}
+    main{max-width:860px;margin:0 auto}
+    h1{font-size:clamp(20px,4vw,31px);line-height:1.25;margin:4px 0 12px}
+    p{color:#bbb;line-height:1.6}
+    .overview{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+    .stat{min-width:115px;flex:1;background:#101010;border:1px solid #333;padding:16px 14px;border-radius:8px}
+    .stat strong{font-size:25px;display:block;margin-bottom:6px}
+    .stat small{color:#bbb;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+    button{background:#fff;color:#000;padding:13px 18px;font:600 12px Inter,Arial,sans-serif;border:0;border-radius:5px;cursor:pointer}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    button.secondary{background:transparent;color:#fff;border:1px solid #666}
+    .status{min-height:26px;color:#f66c03}
+    .result{border-top:1px solid #303030;padding:14px 0;display:grid;gap:4px}
+    .result .label{font-size:12px;font-weight:700}
+    .result small{font-size:11px;color:#bbb;overflow-wrap:anywhere}
+    .result .reason{font-size:11px;color:#f8c7a5}
+    .note{font-size:12px}
+    a{color:#f66c03}
+  </style>
+  <script src="./configuracao.js" defer></script>
+  <script src="./diagnostico-escudos.js" defer></script>
+</head>
+<body>
+  <main>
+    <p><a href="./index.html">← Voltar ao catálogo</a></p>
+    <h1>Diagnóstico de escudos</h1>
+    <p>Teste de carregamento real das 187 imagens na sua conexão. O resultado mostra quais URLs falharam ao exibir o escudo, sem confundir ausência de catálogo com erro de imagem.</p>
+    <div class="overview" aria-live="polite">
+      <div class="stat"><strong id="total">0</strong><small>Total</small></div>
+      <div class="stat"><strong id="tested">0</strong><small>Testados</small></div>
+      <div class="stat"><strong id="passed">0</strong><small>Carregaram</small></div>
+      <div class="stat"><strong id="failed">0</strong><small>Falharam</small></div>
+    </div>
+    <div class="actions">
+      <button id="start" type="button">Testar escudos</button>
+      <button id="export" type="button" class="secondary" disabled>Baixar relatório TXT</button>
+    </div>
+    <p class="status" id="status" role="status">Pronto para iniciar.</p>
+    <div id="results" aria-live="polite"></div>
+    <p class="note">Nota: uma falha pode ser causada por URL inexistente, proteção contra carregamento externo, rede ou tempo esgotado. Repita o teste se a conexão estiver instável. A página não modifica os links do catálogo.</p>
+  </main>
+</body>
+</html>
